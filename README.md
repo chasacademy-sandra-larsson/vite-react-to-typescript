@@ -60,6 +60,7 @@ med 👇
 7. Ändra till main.tsx i index.html
 
 `<script type="module" src="/src/main.tsx"></script>`
+
 8. Lägg till ett utropstecken i main.tsx efter document.getElementById('root')
 
 ```ReactDOM.createRoot(document.getElementById('root')!).render(

@@ -1,4 +1,4 @@
-***Instruktioner hur man uppgraderar ett Vite React-projekt i Javascript till Typescript***
+**Instruktioner hur man uppgraderar ett Vite React-projekt i Javascript till Typescript**
 
 1. Installera dev dependencies
 

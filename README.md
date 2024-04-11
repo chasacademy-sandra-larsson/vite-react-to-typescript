@@ -63,7 +63,8 @@ med 👇
 
 8. Lägg till ett utropstecken i main.tsx efter document.getElementById('root')
 
-```ReactDOM.createRoot(document.getElementById('root')!).render(
+```
+ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <AuthProvider>
     <Provider store={store}>

@@ -65,7 +65,11 @@ med 👇
 
 ```ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+    <AuthProvider>
+    <Provider store={store}>
+      <App />
+      </Provider>
+    </AuthProvider>
+  </React.StrictMode>,
+)
 ```
